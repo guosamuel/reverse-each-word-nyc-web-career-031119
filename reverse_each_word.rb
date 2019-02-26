@@ -6,5 +6,3 @@ def reverse_each_word(sentence)
   end
   return reverse_words.join(" ")
 end
-
-print reverse_each_word("Testing this function")
