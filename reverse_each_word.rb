@@ -4,7 +4,5 @@ def reverse_each_word(sentence)
   array_words.collect do |word|
     reverse_words.push(word.reverse)
   end
-  print reverse_words.join(" ")
+  return reverse_words.join(" ")
 end
-
-reverse_each_word("Testing this function")
